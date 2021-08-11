@@ -1,5 +1,9 @@
+# Reading in text files and using a Postgres DB with Rust
 
-# Running instructions:
+
+
+
+## Running instructions:
 
 ### Install Postgres via terminal:
 - `sudo apt update`
@@ -14,4 +18,4 @@ Shall the new role be a superuser? (y/n)"
 - `psql`
 - `ALTER USER postgres WITH PASSWORD 'myPassword';`
 ### In a separate terminal run :
-`cargo build`
+`cargo run`
