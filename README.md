@@ -10,7 +10,8 @@
 - `sudo apt install postgresql postgresql-contrib`
 ### Create postgres user:
 - `sudo -u postgres createuser --interactive`
-- "Enter name of role to add: postgres
+- "Enter name of role to add: 
+- `postgres`
 Shall the new role be a superuser? (y/n)" 
 - `y`
 - `sudo adduser postgres`
