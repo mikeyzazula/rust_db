@@ -39,11 +39,7 @@ fn main() -> Result<(), Error> {
     }
 
     // Dropping the table after were done executing. Comment out if needed.
-    client.batch_execute(
-        "
-    DROP TABLE rangers;
-    ",
-    )?;
+    client.batch_execute("DROP TABLE rangers;")?;
 
     Ok(())
 }
